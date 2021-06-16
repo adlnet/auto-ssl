@@ -17,8 +17,8 @@ replacing `<project path>` with the proper folder path (i.e. `~/tla/adl-auth`). 
 ### More Detail
 This cronjob is specified with time `0 2 * * 6`, meaning it will run:
 - `6`: On Saturdays
-- `*`: Every Week
-- `*`: Every Month
+- `*`: Any Month
+- `*`: Any Day
 - `2`: At 2AM
 - `0`: and 0 minutes
 
