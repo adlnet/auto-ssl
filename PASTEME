@@ -1,0 +1,2 @@
+PATH=/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin
+0 2 * * 6 /home/ubuntu/auto-ssl/renew.sh <project path>
