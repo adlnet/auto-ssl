@@ -10,7 +10,7 @@ Instead of the default Certbot cronjob, we run a modified version of our manual 
 4. Paste the following lines:
 ```
 PATH=/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin
-0 2 * * 6 ~/auto-ssl/renew.sh <project path>
+0 2 * * 6 /home/ubuntu/auto-ssl/renew.sh <project path>
 ```
 replacing `<project path>` with the proper folder path (i.e. `~/tla/adl-auth`).  That's it.
 
