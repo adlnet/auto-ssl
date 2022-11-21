@@ -14,6 +14,8 @@ PATH=/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin
 ```
 replacing `<project path>` with the proper folder path (i.e. `~/tla/adl-auth`).  That's it.
 
+**Note**: The `/home/ubuntu` is most common, as we typically use an Ubuntu OS.  For CentOS or something else, just provide a path to the `auto-ssl/renew.sh` file. 
+
 ### More Detail
 This cronjob is specified with time `0 2 * * 6`, meaning it will run:
 - `6`: On Saturdays
